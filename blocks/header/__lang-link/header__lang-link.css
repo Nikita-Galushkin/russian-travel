@@ -1,0 +1,24 @@
+@import url('./_active/header__lang-link_active.css');
+
+.header__lang-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-left: 18px;
+  transition: 0.3s 0s opacity ease-in;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,23 @@
+@import url('./__links/footer__links.css');
+@import url('./__link/footer__link.css');
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+  padding: 0 48px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    max-height: 310px;
+    flex-direction: column;
+    padding: 0 16px 24px;
+  }
+}
