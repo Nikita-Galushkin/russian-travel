@@ -1,12 +1,13 @@
 .cover__background {
-  background-image: url(./images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
-  position: absolute;
   object-fit: cover;
-  transition: 0.3s 0s opacity ease-in;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   z-index: -1;
 }
+ 

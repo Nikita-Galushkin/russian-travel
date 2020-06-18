@@ -1,9 +1,5 @@
 .cover__link {
   text-decoration: none;
   color: #ffffff;
+  width: 100%;
 }
-
-.cover__link:hover .cover__background {
-  opacity: 0.3;
-  cursor: pointer;
-  }

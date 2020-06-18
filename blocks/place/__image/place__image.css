@@ -3,8 +3,8 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .place__image {
-    margin-bottom: 32px;
+    margin: 32px 0;
   }
 }

@@ -3,21 +3,20 @@
 @import url('./__copyright/footer__copyright.css');
 
 .footer {
-  padding: 0 48px 24px;
+  padding: 92px 48px 24px;
   display: flex;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 0 24px 24px;
+    padding: 88px 24px 24px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 720px) {
   .footer {
-    max-height: 310px;
     flex-direction: column;
-    padding: 0 16px 24px;
+    padding: 64px 16px 24px;
   }
 }
