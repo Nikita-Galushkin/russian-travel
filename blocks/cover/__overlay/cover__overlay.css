@@ -1,7 +1,8 @@
 .cover__overlay {
+  text-decoration: none;
+  color: #ffffff;
   width: 100%;
   background: rgba(42, 44, 47, 0.3);
-  height: 100%;
   transition: 0.3s 0s background ease-in;
 }
 
